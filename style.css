@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  background-color: #331800;
+  color: #d5d5d5;
+}
+
+.container {
+  margin: 5% 15%;
+}
+
+.nav {
+  background-color: #1f0505e3;
+}
+.nav-items {
+  display: inline;
+}
+
+small {
+  color: #b49880;
+}
