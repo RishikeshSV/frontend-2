@@ -17,26 +17,25 @@ header {
 }
 .nav-items {
   display: inline;
-}
-.current {
-  color: white;
-}
-
-button {
+  font-size: 1rem;
   background: none;
   color: #969696;
   border: none;
   border-right: #7a2929 2px solid;
 }
+.current {
+  color: white !important;
+}
 
 small {
   color: #b49880;
+  margin-left: 10px;
 }
 
 .about {
   background-color: #326632;
   padding: 3%;
-  height: 120px;
+  height: 125px;
 }
 
 img {
@@ -48,10 +47,34 @@ img {
 
 .text-part {
   margin-left: 40px;
-  max-width: 60%;
+  max-width: 45%;
   float: left;
 }
 .image-part {
   float: left;
   display: inline;
+}
+
+.index {
+  background-color: #324932;
+  margin-top: 10px;
+  padding: 30px;
+}
+
+.index-items {
+  background: none;
+  color: #cec3c3;
+  border: none;
+  border-bottom: white 2px solid;
+  display: block;
+  padding: 13px;
+  padding-left: 0;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.content {
+  color: black;
+  margin-top: 10px;
+  background-color: #b8b596;
 }
