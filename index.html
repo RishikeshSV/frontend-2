@@ -9,22 +9,30 @@
   </head>
   <body>
     <div class="container">
-      <h1 style="display: inline">Your Logo</h1>
-      <small>Using a single layout to create several different looks </small>
+      <header>
+        <h1 style="display: inline">Your Logo</h1>
+        <small>Using a single layout to create several different looks </small>
+      </header>
+
       <section>
         <div class="nav">
-          <h4 class="nav-items">Home</h4>
-          <h4 class="nav-items">About</h4>
-          <h4 class="nav-items">Services</h4>
-          <h4 class="nav-items">Contact Us</h4>
+          <h4 class="nav-items"><button>Home</button></h4>
+          <h4 class="nav-items"><button class="current">About</button></h4>
+          <h4 class="nav-items"><button>Services</button></h4>
+          <h4 class="nav-items"><button>Contact Us</button></h4>
         </div>
         <div class="about">
-          <h2>About</h2>
-          <p>
-            And then some plain text would go in here saying something about the
-            section we're in. Probably some glowing statement about the company
-            or whatever
-          </p>
+          <div class="image-part">
+            <img src="./airplane.png" alt="airplane" />
+          </div>
+          <div class="text-part">
+            <h2 style="margin: 0px">About</h2>
+            <p>
+              And then some plain text would go in here saying something about
+              the section we're in. Probably some glowing statement about the
+              company or whatever
+            </p>
+          </div>
         </div>
       </section>
     </div>
