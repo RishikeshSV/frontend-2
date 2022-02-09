@@ -6,6 +6,7 @@ body {
 
 .container {
   margin: 2% 15%;
+  margin-bottom: 0px;
 }
 header {
   margin-bottom: 4%;
@@ -59,6 +60,7 @@ img {
   background-color: #324932;
   margin-top: 10px;
   padding: 30px;
+  width: 40%;
 }
 
 .index-items {
@@ -70,11 +72,14 @@ img {
   padding: 13px;
   padding-left: 0;
   text-align: left;
+  min-width: 140px;
   font-size: 1rem;
 }
 
 .content {
   color: black;
+  padding: 45px;
+  padding-top: 30px;
   margin-top: 10px;
   background-color: #b8b596;
 }
